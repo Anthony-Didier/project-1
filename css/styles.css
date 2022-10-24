@@ -4,8 +4,99 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 18px;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
-  border: solid black;
+}
+
+#header {
+  width: 100%;
+  border-bottom: solid white;
+  border-collapse: collapse;
+}
+
+#home_logo {
+  width: 157px;
+  padding: 20px;
+  background-color: #3a7137;
+}
+
+#navbar {
+  width: 860px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #dd2d32;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#logo {
+  vertical-align: middle;
+  float: left;
+}
+
+.nav {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#home_photo {
+  float: left;
+}
+
+div#welcome {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+p#welcome {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Lucida Handwriting";
+  font-size: 18px;
+}
+
+#paragraph {
+  padding: 10px;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
 }
